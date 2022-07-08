@@ -1,0 +1,87 @@
+Client-server Architecture with Mysql
+
+Client-Server refers to an architecture in which two or more computers are connected together over a network to send and receive requests between one another.
+
+Create and configure two Linux-based virtual servers (EC2 instances in AWS).
+Server A name - `mysql server`
+Server B name - `mysql client`
+
+Install update - sudo apt update -y
+
+
+install mysql server 
+
+sudo apt install mysql-server -y
+
+Enable the server 
+
+sudo systemctl enable mysql 
+
+#on the client server run update and install Mysql.
+sudo apt update -y
+sudo apt install mysql-client -y
+
+On mysql client Linux Server install MySQL Client software.
+
+By default, both of your EC2 virtual servers are located in the same local virtual network, so they can communicate to each other using local IP addresses. Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default, so you will have to open it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups. For extra security, do not allow all IP addresses to reach your ‘mysql server’ – allow access only to the specific local IP address of your ‘mysql client’.
+
+we n eed to install secure installation on server instance 
+
+ sudo mysql_secure_installation
+
+sudo mysql
+
+then create a user
+
+CREATE USER 'remote_user'@'%' IDENTIFIED WITH mysql_native_password BY PassWord.1';
+
+
+# Create database..
+
+ CREATE DATABASE test_bd;
+
+## Grant all priviledges 
+
+ GRANT ALL ON test_db.* TO 'remote_user'@'% ' WITH GRANT OPTION;
+
+# 
+
+
+FLUSH PRIVILEGES;
+
+exit
+
+############
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+note:change the bind address tp ..0.0.0.0 to open it up.
+
+#restart mysql
+
+ sudo systemctl restart mysql
+
+
+From mysql client Linux Server connect remotely to mysql server Database Engine without using SSH. You must use the mysql utility to perform this action.
+
+ sudo mysql -u remote_user -h 172.31.48.26 -p
+
+#mysql> Show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
++--------------------+
+1 row in set (0.01 sec)
+
+mysql> exit
+Bye
+
+
+
+
+
+
+
+
+
+
+
