@@ -1,0 +1,500 @@
+   28  cd terraform
+   29  ls
+   30  exit
+   31  cd Downloads
+   32  chmod 400 EC2-SALES.pem
+   33  ssh -i "EC2-SALES.pem" ec2-user@ec2-35-153-52-131.compute-1.amazonaws.com
+   34  exit
+   35  ls
+   36  cd c:
+   37  ls
+   38  ls
+   39  cd terraform-jenkins/
+   40  terraform init
+   41  terraform init
+   42  terraform init
+   43  terraform init
+   44  terraform init
+   45  terraform init
+   46  terraform init
+   47  terraform init
+   48  terraform init
+   49  terraform init
+   50  terraform init
+   51  cd Downloads
+   52  chmod 400 EC2-SALES.pem
+   53  ssh -i "EC2-SALES.pem" ec2-user@ec2-35-153-52-131.compute-1.amazonaws.com
+   54  exit
+   55  cd c:
+   56  ls
+   57  cd terraform
+   58  terraform in it
+   59  terraform init
+   60  terraform plan
+   61  cd c:
+   62  ls
+   63  cd terraform-jenkins/
+   64  git status
+   65  git add terraform-jenkins
+   66  atom .
+   67  terraform init
+   68  terraform init
+   69  cd ..
+   70  terraform init
+   71  cd terraform
+   72  terraform init
+   73  terraform plan
+   74  terraform plan --terget=terraform-jenkins
+   75  exit
+   76  cd Downloads
+   77  chmod 400 EC2-SALES.pem
+   78  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-236-228-63.compute-1.amazonaws.com
+   79  exit
+   80  cd Downloads
+   81  chmod 400 EC2-SALES.pem
+   82  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-174-179-191.compute-1.amazonaws.com
+   83  cd Downloads
+   84  chmod 400 EC2-SALES.pem
+   85  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-174-179-191.compute-1.amazonaws.com
+   86  cd Downloads
+   87  chmod 400 EC2-SALES.pem
+   88  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-174-179-191.compute-1.amazonaws.com
+   89  cd Downloads
+   90  chmod 400 EC2-SALES.pem
+   91  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-24-189.compute-1.amazonaws.com
+   92  cd Downloads
+   93  chmod 400 EC2-SALES.pem
+   94  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-24-189.compute-1.amazonaws.com
+   95  exit
+   96  cd Downloads
+   97  chmod 400 EC2-SALES.pem
+   98  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-174-179-191.compute-1.amazonaws.com
+   99  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-24-189.compute-1.amazonaws.com
+  100  cd Downloads
+  101  chmod 400 EC2-SALES.pem
+  102  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-144-140-148.compute-1.amazonaws.com
+  103  cd Downloads
+  104  chmod 400 EC2-SALES.pem
+  105  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-144-140-148.compute-1.amazonaws.com
+  106  ssh mark@54.208.61.46
+  107  exit
+  108  ssh john@54.208.61.46
+  109  cd Downloads
+  110  chmod 400 EC2-SALES.pem
+  111  ssh -i "EC2-SALES.pem" ec2-user@ec2-54-208-61-46.compute-1.amazonaws.com
+  112  cd Downloads
+  113  chmod 400 EC2-SALES.pem
+  114  ssh -i "EC2-SALES.pem" ubuntu@ec2-3-84-255-153.compute-1.amazonaws.com
+  115  exit
+  116  cd Downloads
+  117  chmod 400 EC2-SALES.pem
+  118  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-160-114-118.compute-1.amazonaws.com
+  119  exit
+  120  cd Downloads
+  121  chmod 400 EC2-SALES.pem
+  122  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-160-100-10.compute-1.amazonaws.com
+  123  cd Downloads
+  124  chmod 400 EC2-SALES.pem
+  125  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-172-175-41.compute-1.amazonaws.com
+  126  cd Downloads
+  127  chmod 400 EC2-SALES.pem
+  128  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-237-89-110.compute-1.amazonaws.com
+  129  EXIT
+  130  exit
+  131  cd Downloads
+  132  chmod 400 EC2-SALES.pem
+  133  ssh -i "EC2-SALES.pem" ubuntu@ec2-52-23-178-58.compute-1.amazonaws.com
+  134  exit
+  135  cd downloads
+  136  chmod 400 EC2-SALES.pem
+  137  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-84-109-242.compute-1.amazonaws.com
+  138  exit
+  139  cd Donloads
+  140  cd Downloads
+  141  chmod 400 EC2-SALES.pem
+  142  ssh -i "EC2-SALES.pem" ubuntu@ec2-100-25-20-79.compute-1.amazonaws.com
+  143  cd Downloads
+  144  chmod 400 EC2-SALES.pem
+  145  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-237-111-121.compute-1.amazonaws.com
+  146  cd Downloads
+  147  chmod 400 EC2-SALES.pem
+  148  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-237-111-121.compute-1.amazonaws.com
+  149  cd Downloads
+  150  chmod 400 EC2-SALES.pem
+  151  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-236-232-36.compute-1.amazonaws.com
+  152  cd Downloads
+  153  chmod 400 EC2-SALES.pem
+  154  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-236-232-36.compute-1.amazonaws.com
+  155  cd Downloads
+  156  chmod 400 EC2-SALES.pem
+  157  ssh -i "EC2-SALES.pem" ubuntu@ec2-52-206-109-173.compute-1.amazonaws.com
+  158   cd Downloads
+  159  chmod 400 EC2-SALES.pem
+  160  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-242-211-31.compute-1.amazonaws.com
+  161  LS
+  162  CD pROJECT
+  163  cd Project
+  164  ls
+  165  rm onborading_user 
+  166  ls
+  167  code & .
+  168  code & .
+  169  code . &
+  170  cd Shell/
+  171  ls
+  172  sudo rm -rf /etc/skel/authorized_key
+  173  rm authorized_keys 
+  174  ls
+  175  sudo etc/ssh
+  176  scp -i /Downloads/EC2-SALES.pem
+  177  scp -i /Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  178  sudo scp -i /Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  179  scp -i /Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  180  scp -i /home/Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  181  ls -ltr
+  182  scp -i /home/Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  183  scp -i /Downloads/EC2-SALES onboarding_users names.csv ubuntu@52.206.109.173:
+  184  sftp 54.242.211.31
+  185  sftp 172.31.54.178
+  186  cd Downloads
+  187  chmod 400 EC2-SALES.pem
+  188  ssh -i "EC2-SALES.pem" ec2-user@ec2-35-153-98-147.compute-1.amazonaws.com
+  189  cd Downloads
+  190  chmod 400 EC2-SALES.pem
+  191  ssh -i "EC2-SALES.pem" ec2-user@ec2-34-201-68-51.compute-1.amazonaws.com
+  192  exit
+  193  cd Desktop
+  194  mkdir Test_repo
+  195  mkdir test_repo
+  196  mkdir testrepo
+  197  cd testrepo
+  198  get init
+  199  git init
+  200  commit
+  201  git commit
+  202  code & .
+  203  code . &
+  204  git add Readme.md
+  205  git status
+  206  touch vpc.tf
+  207  touch onborading_user
+  208  cd onborading_user 
+  209  vim onborading_user
+  210  git status
+  211  git status
+  212  git add onborading_user
+  213  git add vpc.tf
+  214  git commit -m "User Creation Automation shell script"
+  215  git status
+  216  git remote add origin https://github.com/Solarge/User_Creation_automation.git
+  217  git checkout master
+  218  git push -u origin master
+  219  git pull origin master
+  220  git status
+  221  git checkout new
+  222  git checkout origin new
+  223  git checkout origin -b new
+  224  git checkout -b new
+  225  git checkout origin new
+  226  git checkout origin new
+  227  git checkout master
+  228  git checkout new
+  229  git push origin new
+  230  exit
+  231  cd Downloads
+  232  chmod 400 EC2-SALES.pem
+  233  ssh -i "EC2-SALES.pem" ec2-user@ec2-54-165-42-73.compute-1.amazonaws.com
+  234  cd Downloads
+  235  chmod 400 EC2-SALES.pem
+  236  ssh -i "EC2-SALES.pem" ec2-user@ec2-52-23-177-89.compute-1.amazonaws.com
+  237  exit
+  238  cd Dowloads
+  239  cd Downlaods
+  240  cd Downloads
+  241  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-39-178.compute-1.amazonaws.com
+  242  cd Desktop
+  243  mkdir Projec5
+  244  git init
+  245  vi projecte5
+  246  cat projecte5
+  247  git --h
+  248  git --help
+  249  git add
+  250  git add projecte5
+  251  git commit -m "IMPLEMENT A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS)"
+  252  git remote add origin https://github.com/Solarge/IMPLEMENT-A-CLIENT-SERVER-ARCHITECTURE-USING-MYSQL-DATABASE-MANAGEMENT-SYSTEM-DBMS
+  253  git push -u origin master
+  254  git remote add origin https://github.com/Solarge/IMPLEMENT-A-CLIENT-SERVER-ARCHITECTURE-USING-MYSQL-DATABASE-MANAGEMENT-SYSTEM-DBMS-..git
+  255  git push -u origin master
+  256  git remote add origin https://github.com/Solarge/IMPLEMENT-A-CLIENT-SERVER-ARCHITECTURE-USING-MYSQL-DATABASE-MANAGEMENT-SYSTEM-DBMS-..git
+  257  git remote add origin https://github.com/Solarge/User_Creation_automation.git
+  258  git push -u origin master
+  259  git stautus
+  260  git status
+  261  git add .
+  262  ls
+  263  git add projecte5
+  264  git commit -m 
+  265  git commit -m "Project"
+  266  git remote add origin https://github.com/Solarge/IMPLEMENT-A-CLIENT-SERVER-ARCHITECTURE-USING-MYSQL-DATABASE-MANAGEMENT-SYSTEM-DBMS-..git
+  267  git remote add origin https://github.com/Solarge/Client-server-Arc..git
+  268  git remote add origin https://github.com/Solarge/User_Creation_automation.git
+  269  git remote add origin -n https://github.com/Solarge/User_Creation_automation.git
+  270  git remote add origin -n https://github.com/Solarge/User_Creation_automation.git
+  271  git remote add origin -n https://github.om/Solarge/User_Creation_automation.git
+  272  git add projecte5
+  273  git push -u origin master
+  274  exit
+  275  cd Downloads
+  276  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-39-178.compute-1.amazonaws.com
+  277  sudo mysql  -p
+  278  sudo apt install mysql-server -y
+  279  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-90-39-178.compute-1.amazonaws.com
+  280  exit
+  281  cd Downloads
+  282  ssh -i "EC2-SALES.pem" ubuntu@ec2-54-160-116-215.compute-1.amazonaws.com
+  283  exit
+  284  cd Dowloads
+  285  cd Downloads
+  286  ssh -i "EC2-SALES.pem" ec2-user@ec2-34-204-91-229.compute-1.amazonaws.com
+  287  exit
+  288  cd Downloads
+  289  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  290  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  291  chmod chmod 400 EC2-SALES.pem
+  292  chmod 400 EC2-SALES.pem
+  293  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  294  sudo scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  295  sudo scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  296  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  297  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  298  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  299  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  300  scp wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  301  scp -r wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  302  scp -r wp-includes ec2-user@18.207.2.190:~/home/var/www/html/ec2-user
+  303  ip config
+  304  ip add config
+  305  ip addr config
+  306  ip config
+  307  ipconfig
+  308  scp user@174.89.149.209:/wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  309  scp user@174.89.149.209:/wp-includes ec2-user@18.207.2.190:~/home/var/www/html
+  310  sftp 172.31.62.169
+  311  sftp 172.31.62.169
+  312  sftp 18.207.2.190
+  313  sftp 18.207.2.190
+  314  sftp 18.207.2.190
+  315  sftp 18.207.2.190
+  316  sftp 172.31.62.169
+  317  sftp ec2-user@172.31.62.169
+  318  sftp ec2-user@18.207.2.190
+  319  cd wp-content
+  320  ls
+  321  scp scp_upload/ user@18.207.2.190:/var/www/html/wp-content
+  322  scp scp_upload/ user@18.207.2.190:/var/www/html/wp-content
+  323  scp scp_upload/ user@18.207.2.190:/var/www/html/wp-content
+  324  ls
+  325  sftp @18.207.2.190
+  326  sftp -r @18.207.2.190
+  327  sftp ec2-user@18.207.2.190
+  328  exit
+  329  exit
+  330  git init
+  331  mkdir Readme.md
+  332  rm Readme.md
+  333  rm -r Readme.md
+  334  vi Readme.md
+  335  git add - Readme.md
+  336  git add Readme.md
+  337  git remote add origin https://github.com/Solarge/Mylab.git
+  338  git push -u origin master
+  339  git statud
+  340  git status
+  341  git checkout -b labs1
+  342  git push -u origin labs1
+  343  vi Readme.md
+  344  git add Readme.md
+  345  git checkout
+  346  clear
+  347  terraform init
+  348  code . &
+  349  cd Desktop
+  350  exit
+  351  cd Desktop
+  352  sudo su
+  353  mkdir ProjectAlpha
+  354  ls
+  355  cd ProjectAlpha
+  356  code . &
+  357  touch ec2.tf
+  358  aws configure
+  359  aws configure
+  360  touch provider.tf
+  361  touch variables
+  362  rm variables 
+  363  touch variables.tf
+  364  touch vpc.tf
+  365  touch sg.tf
+  366  terraform --version
+  367  ls
+  368  mv ec2.tf ec2_web_sg.tf
+  369  ls
+  370  touch ec2_web.tf
+  371  ls
+  372  cd ../..
+  373  ls
+  374  rm ProjectAlpha
+  375  cd Desktop
+  376  ls
+  377  cd ProjectAlpha
+  378  cd ..
+  379  rm ProjectAlpha
+  380  rm -r ProjectAlpha
+  381  rm -fr ProjectAlpha
+  382  rm -rf ProjectAlpha
+  383  rm -rf ProjectAlpha
+  384  rm -rf ProjectAlpha
+  385  cd  Downloads
+  386  ssh -i "oregonkey.pem" centos@ec2-35-88-138-216.us-west-2.compute.amazonaws.com
+  387  exit
+  388  cd Downloads
+  389  ssh -i "EC2-SALES.pem" root@ec2-34-204-82-38.compute-1.amazonaws.com
+  390  ls
+  391  cd ..
+  392  cd ..
+  393  cd ..
+  394   cd ..
+  395  cd Downlads
+  396  pwd
+  397  ls
+  398  cd u
+  399  cd usr
+  400  ls
+  401  exit
+  402  ls
+  403  git checkout master "hi"
+  404  git checkout master
+  405  git checkout
+  406  git checkout lab
+  407  git init
+  408  git checkout lab
+  409  git checkout master
+  410  ls
+  411  cd Downloads
+  412  ssh -i "EC2-SALES.pem" root@ec2-34-204-82-38.compute-1.amazonaws.com
+  413  ssh -i "EC2-SALES.pem" ec2user@ec2-34-204-82-38.compute-1.amazonaws.com
+  414  chmod 400 EC2-SALES.pem
+  415  ssh -i "EC2-SALES.pem" ec2user@ec2-34-204-82-38.compute-1.amazonaws.com
+  416  chmod 400 EC2-SALES.pem
+  417  ssh -i "EC2-SALES.pem" root@ec2-34-204-82-38.compute-1.amazonaws.com
+  418  ssh -i "EC2-SALES.pem" ec2-user@ec2-34-204-82-38.compute-1.amazonaws.com
+  419  exit
+  420  ls
+  421  cd Desktop
+  422  ls
+  423  cd ../..
+  424  ls
+  425  cd user/
+  426  terraform init
+  427  cd projecte
+  428  cd test
+  429  cd Desktop
+  430  cd test
+  431  terraform init
+  432  ls
+  433  cd ..
+  434  ls
+  435  cd c
+  436  cd c:
+  437  teraform init
+  438  terraform init
+  439  ls
+  440  cd terraform
+  441  terraform init
+  442  aws configure
+  443  aws configure
+  444  terraform plan
+  445  ls
+  446  code . &
+  447  code . &
+  448  cd ../..
+  449  cd c:/
+  450  ls
+  451  cd project
+  452  ls
+  453  install setup.exe
+  454  sudo install setup.exe
+  455  cd ..
+  456  ls
+  457  cd terradorm
+  458  cd terraform
+  459  ls
+  460  cd terraform
+  461  ls
+  462  sudo vi myec2.tf
+  463  vi myec2.tf
+  464  terraform init
+  465  code . &
+  466  vi myec2.tf
+  467  vi myec2.tf
+  468  vi myec2.tf
+  469  ls
+  470  vi Readme.md 
+  471  touch myvpc.tf
+  472  code . &
+  473  exit
+  474  exit
+  475  cd Downloads
+  476  ssh -i "EC2-SALES.pem" centos@ec2-100-25-190-97.compute-1.amazonaws.com
+  477  ssh -i "EC2-SALES.pem" centos@ec2-100-25-190-97.compute-1.amazonaws.com
+  478  ssh ansible@100.25.190.97
+  479  cd Downloads
+  480  ssh -i "EC2-SALES.pem" centos@ec2-54-237-224-243.compute-1.amazonaws.com
+  481  ssh -i "EC2-SALES.pem" centos@ec2-54-237-224-243.compute-1.amazonaws.com
+  482  cd Downloads
+  483  ssh -i "EC2-SALES.pem" centos@ec2-100-25-202-134.compute-1.amazonaws.com
+  484  ssh -i "EC2-SALES.pem" centos@ec2-100-25-202-134.compute-1.amazonaws.com
+  485  choco --version
+  486  choco install vagrant
+  487  sudo choco install vagrant
+  488  cd /
+  489  choco install vagrant
+  490  cd /f/
+  491  ls
+  492  cd /
+  493  cd /f/
+  494  ls
+  495  cd usr
+  496  ls
+  497  cd ../..
+  498  ls
+  499  cd ../..
+  500  ls
+  501  cd Desktop
+  502  mkdir vagrant-vms && cd
+  503  find vargrant-vms
+  504  :/vargrant-vms
+  505  which vargrant-vms
+  506  cd Downloads
+  507  mkdir vagrant-vms
+  508  cd vagrant-vms/
+  509  mkdir centos7
+  510  mkdir unbuntu18
+  511  ls
+  512  vagrant init geerlingguy/centos7 (get from vagrant cloud)
+  513  ls
+  514  cd centos7/
+  515  vagrant init geerlingguy/centos7
+  516  ls
+  517  vagrant up
+  518  vagrant ssh
+  519  vagrant halt
+  520  cd ..
+  521  ls
+  522  cd unbuntu18/
+  523  vagrant init ubuntu/bionic64 (get from vagrant cloud)
+  524  vagrant up
+  525  vagrant halt
+  526  vagrant destroy
+  527  history >> history.txt
