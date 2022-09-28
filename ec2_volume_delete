@@ -1,0 +1,58 @@
+import sys
+import boto3
+import botocore.exceptions
+def create_boto3_session(
+    profile :str = 'default',
+    region :str = 'us-east-1') -> boto3.session.Session:
+    """Create a boto3 session
+Args:
+        profile (str, optional): AWS profile. Defaults to "default".
+        region (str, optional): AWS region. Defaults to "us-east-1".
+Returns:
+        boto3.session.Session
+    """
+    try:
+        sess = boto3.Session(profile_name=profile, region_name=region)
+        return sess
+    except boto3.SessionError as e:
+        print(f'Failed to create boto3 session: {e}')
+        return None
+def get_all_unused_ebs_volumes(sess: boto3.session.Session) -> list:
+    """List of all unused EBS volumes
+Args:
+        sess (boto3.session.Session): Boto3 session
+Returns:
+        list: Unused EBS volume list
+    """
+    try:
+        ec2 = sess.resource('ec2')
+        volumes = ec2.volumes.all()
+        return [volume for volume in volumes if len(volume.attachments) == 0]
+    except botocore.exceptions.ClientError as e:
+        print(f'Failed to create ec2 resource :{e}')
+        return []
+def delete_unused_ebs_volumes(unused_volume_list: list, dry_run: bool = True):
+    """Delete give unused EBS volumes
+Args:
+        unused_volume_list (list): List of unused volume objs
+        dry_run (bool, optional): Defaults to True.
+    """
+    for volume in unused_volume_list:
+        if not dry_run:
+            volume.delete()
+            print(f'Deleting {volume.id}')
+if __name__ == '__main__':
+    sess = create_boto3_session()
+# Get all unused EBS volumes
+    if sess:
+        unused_ebs_volumes = get_all_unused_ebs_volumes(sess)
+    else:
+        sys.exit('Unable to create boto3 session')
+# Delete unused EBS volumes
+    if unused_ebs_volumes:
+        print('All unused EBS volumes:')
+        for volume in unused_ebs_volumes:
+            print(volume.id)
+        delete_unused_ebs_volumes(unused_ebs_volumes)
+    else:
+        sys.exit('No unused EBS volume to delete')
